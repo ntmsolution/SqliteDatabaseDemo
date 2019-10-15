@@ -8,19 +8,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000"
-        android:textSize="10sp"/>
+        android:textSize="14sp"/>
 
     <TextView
         android:id="@+id/lname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000"
-        android:textSize="10sp"/>
+        android:textSize="14sp"/>
 
     <TextView
         android:id="@+id/mobileno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000"
-        android:textSize="10sp"/>
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"/>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
 </LinearLayout>

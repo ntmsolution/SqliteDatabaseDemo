@@ -29,7 +29,14 @@
         android:id="@+id/btnsubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"/>
+        android:text="Add Record"/>
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Edit Record"/>
 
     <Button
         android:id="@+id/btndisplay"
